@@ -1,0 +1,93 @@
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  width: 100%;
+  padding: 15px;
+  z-index: 1;
+  box-sizing: border-box;
+  display: block;
+  align-items: center;
+  max-width: none;
+}
+
+.nav__logo {
+  position: fixed;
+  margin-left: 10px;
+  width: 85px;
+  object-fit: contain;
+  margin-bottom: 0;
+  margin-top: 5px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.nav__models {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.nav__model {
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 0;
+  margin: 0 10px;
+
+  display: flex;
+}
+
+.nav__model-name {
+  font-weight: 620;
+  font-size: 15px;
+  text-transform: uppercase;
+  transition: color 0.15s ease-in-out;
+  color: rgb(0, 0, 0);
+}
+.nav__right {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 80px;
+  margin-right: -200px;
+}
+
+.nav__options-name-signin {
+  display: flex;
+  align-items: center;
+
+  right: 150px;
+  justify-content: space-evenly;
+
+  position: absolute;
+  font-weight: 620;
+  font-size: 15px;
+  text-transform: uppercase;
+  transition: color 0.15s ease-in-out;
+  color: rgb(0, 0, 0);
+}
+
+.nav__options-name-shop {
+  display: flex;
+  align-items: center;
+
+  right: 70px;
+  justify-content: space-evenly;
+
+  position: absolute;
+  font-weight: 620;
+  font-size: 15px;
+  text-transform: uppercase;
+  transition: color 0.15s ease-in-out;
+  color: rgb(0, 0, 0);
+}
+
+.nav__burger {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  color: "rgb(57, 60, 65)";
+  cursor: pointer;
+}

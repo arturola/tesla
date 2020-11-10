@@ -1,0 +1,130 @@
+.car {
+  transition-timing-function: ease-in;
+  transition: 0.5s;
+}
+
+.car__background {
+  display: inline-block;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-size: 0px;
+  scroll-snap-type: y mandatory;
+  margin: -4px;
+}
+
+.car__child {
+  scroll-snap-align: start;
+}
+.car__backgroundImage {
+  object-fit: contain;
+  width: 100%;
+  margin-top: -233px;
+  margin-bottom: -4px;
+}
+
+.car__model {
+  position: fixed;
+  z-index: 1;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: rgb(57, 60, 65);
+  font-weight: 530;
+  white-space: nowrap;
+  transition-duration: 0.5s;
+}
+
+.car__delivery {
+  position: fixed;
+  z-index: 1;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(92, 94, 98);
+  cursor: pointer;
+}
+
+.car__buttons {
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  top: 86%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.car__shopButtonAlt {
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  top: 80%;
+  left: 40%;
+  align-items: center;
+  /* transform: translate(-50%, -50%); */
+}
+.car__buttonBlack {
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.17);
+  border: none;
+  outline: none;
+  width: 260px;
+  font-weight: 500;
+  height: 40px;
+  margin-right: 22px;
+  cursor: pointer;
+}
+
+.car__buttonWhite {
+  padding: 10px;
+  border-radius: 20px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: none;
+  outline: none;
+  width: 250px;
+  font-weight: 500;
+  height: 40px;
+  cursor: pointer;
+}
+.car__shopButton {
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 1);
+  border: none;
+  outline: none;
+  width: 250px;
+  font-weight: 500;
+  height: 40px;
+  cursor: pointer;
+}
+.car__arrow {
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: xx-large;
+}
+.car__arrowTransparent {
+  opacity: 0;
+  transition-timing-function: ease-in;
+  transition-duration: 0.5s;
+}
+
+.car__modelTransparent {
+  opacity: 1;
+  transition-timing-function: ease-in;
+  transition-duration: 0.5s;
+}
+
+.car__buttonsTransparent {
+  opacity: 0;
+  /* transition-timing-function: ease-in;
+  transition-duration: 0.5s; */
+}
